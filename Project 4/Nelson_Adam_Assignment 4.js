@@ -75,9 +75,11 @@ var string = "world of warcraft"
 	console.log(capital);
 
 //String to a number
-var number= "42"
+function number(number){
 	number= parseInt(number)
 	console.log(number);
+};
+number("42");
 	
 	
 //Number to a specific decimal place
